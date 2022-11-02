@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int  main()
+{
+	int a,b,x,y;
+	y=0;
+	for (int a = 5; a>0; a--){
+		x=0;
+		for(b = 1; b<=a; b++){
+			cout <<b;
+			if (b < 5){
+				cout << "+";
+			}
+			x=x+b;
+		}
+		cout << "="<<x<<endl; 
+		y=y+x;
+	}
+	cout <<"Total = "<<y;
+	  
+}
